@@ -1,27 +1,24 @@
-// 🌙 Dark Mode Toggle
-const toggleBtn = document.getElementById("toggleTheme");
+// Dark mode
+const btn = document.getElementById("toggleTheme");
 
-toggleBtn.addEventListener("click", () => {
+btn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
 
-
-// 👀 Fade-in on scroll
+// Scroll animation
 const elements = document.querySelectorAll(".fade-in");
 
 function showOnScroll() {
-  const triggerBottom = window.innerHeight * 0.8;
+  const trigger = window.innerHeight * 0.8;
 
   elements.forEach(el => {
     const top = el.getBoundingClientRect().top;
 
-    if (top < triggerBottom) {
+    if (top < trigger) {
       el.classList.add("show");
     }
   });
 }
 
 window.addEventListener("scroll", showOnScroll);
-
-// Run once on load
 showOnScroll();
