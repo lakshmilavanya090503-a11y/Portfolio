@@ -117,4 +117,6 @@ button {
   width: 0%;
   background: linear-gradient(90deg, #ff6a00, #ee0979);
   z-index: 9999;
+  background:red;
+  height:10px;
 }
