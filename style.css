@@ -107,3 +107,13 @@ button {
 .dark .card {
   background: #1e1e1e;
 }
+
+#progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0%;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  z-index: 999;
+}
