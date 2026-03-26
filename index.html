@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <title>Lakshmi Lavanya | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Lakshmi Lavanya</h1>
-    <p>Full-Stack Developer</p>
-    <button id="toggleTheme">Toggle Theme</button>
-  </header>
+  <div class="container">
 
-  <section class="about fade-in">
-    <h2>About Me</h2>
-    <p>I build full-stack applications and love solving real-world problems.</p>
-  </section>
+    <header>
+      <h1>Lakshmi Lavanya</h1>
+      <p>Full-Stack Developer</p>
 
-  <section class="projects fade-in">
-    <h2>Projects</h2>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/bllavanya" target="_blank">GitHub</a>
+        <a href="https://github.com/lakshmilavanya090503-a11y" target="_blank">LinkedIn</a>
+      </div>
 
-    <div class="project-card">
-      <h3>License Plate OCR</h3>
-      <p>Detects vehicle plates using image processing.</p>
-      <p><strong>Tech:</strong> Python, OpenCV, PyTorch, EasyOCR</p>
-      <a href="https://github.com/lakshmilavanya090503-a11y/license-plate-ocr.git">GitHub</a>
-    </div>
+      <button id="toggleTheme">🌙 Toggle</button>
+    </header>
 
-  </section>
+    <section class="card fade-in">
+      <h2>About Me</h2>
+      <p>
+        Passionate full-stack developer focused on building modern web applications 
+        and solving real-world problems.
+      </p>
+    </section>
 
-  <section class="contact fade-in">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:lakshmilavanya090503@gmail.com">lakshmilavanya090503@gmail.com</a></p>
-  
-  <p>
-    <a href="https://www.linkedin.com/in/bllavanya" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/lakshmilavanya090503-a11y" target="_blank">GitHub</a>
-  </p>
-</section>
+    <section class="card fade-in">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>License Plate OCR</h3>
+        <p>Detects vehicle number plates using image processing.</p>
+        <p><strong>Tech:</strong> Python, OpenCV, EasyOCR, PyTorch</p>
+        <a href="https://github.com/lakshmilavanya090503-a11y/license-plate-ocr.git">View Project</a>
+      </div>
+
+      
+
+    </section>
+
+    <section class="card fade-in">
+      <h2>Skills</h2>
+      <p>JavaScript • Python • React • Node.js • MongoDB • SQL • HTML • CSS</p>
+    </section>
+
+    <section class="card fade-in contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:lakshmilavanya090503@gmail.com">lakshmilavanya090503@gmail.com</a></p>
+    </section>
+
+  </div>
 
   <script src="script.js"></script>
 </body>
