@@ -65,3 +65,15 @@ links.forEach(link => {
     }
   });
 });
+// ===============================
+// 🎯 Scroll Progress Bar
+// ===============================
+window.addEventListener("scroll", () => {
+  const scrollTop = window.scrollY;
+
+  const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+  const scrollPercent = (scrollTop / pageHeight) * 100;
+
+  document.getElementById("progressBar").style.width = scrollPercent + "%";
+});
