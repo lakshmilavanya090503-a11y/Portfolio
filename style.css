@@ -1,20 +1,41 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f9f9f9;
-  line-height: 1.6;
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
-header, footer {
-  text-align: center;
-  margin-bottom: 20px;
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
 }
 
-a {
-  color: #007bff;
-  text-decoration: none;
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-a:hover {
-  text-decoration: underline;
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Dark mode */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark header {
+  background: black;
+}
+
+.dark .project-card {
+  background: #1e1e1e;
 }
