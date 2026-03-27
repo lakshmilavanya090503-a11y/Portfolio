@@ -1,6 +1,6 @@
 .image {
-  height:70px;
-  width:70px;
+  height:95px;
+  width:95px;
   border-radius:50%;
   text-align:center;
 }
@@ -123,6 +123,6 @@ button {
   width: 0%;
   background: linear-gradient(90deg, #ff6a00, #ee0979);
   z-index: 9999;
-  background:red;
+  background:#ffffff;
   height:10px;
 }
