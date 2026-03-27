@@ -1,10 +1,11 @@
 .image {
-  height:180px;
-  width:178px;
+  height:200px;
+  width:198px;
   border-radius:50%;
   text-align:center;
   object-fit:cover;
   max-width:none;
+  background-size:cover;
 }
 * {
   margin: 0;
